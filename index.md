@@ -2,4 +2,6 @@
 
 This page is a test
 
-[Link to another page](Linear_Elasticity).
+[Link to markdown](Linear_Elasticity).
+
+[Link to html](LinearElastic).
