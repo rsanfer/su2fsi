@@ -1,7 +1,7 @@
-## My page
+## Main page
 
-This page is a test
+Tutorial tests
 
-[Link to markdown](Linear_Elasticity).
+[Tutorial for Linear Elasticity](Linear_Elasticity).
 
-[Link to html](LinearElastic.html).
+[Tutorial for Non-Linear Elasticity](Nonlinear).
