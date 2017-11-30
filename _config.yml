@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
 title: Welcome to the SU2-FSI tutorials website!
 description: I will be adding tutorials so you can get started with FSI in SU2.
+
+markdown: kramdown

@@ -17,6 +17,8 @@ The problem that we will be solving consists of a vertical cantilever, clamped i
 We will first cover the solution of static problems. The mathematical problem that we will be solving has the well-known form  
 
 $$\mathbf{K} \mathbf{u} = \mathbf{F},$$  
+\\[\mathbf{K} \mathbf{u} = \mathbf{F},\\]  
+
 where $\mathbf{K}$ is the stiffness matrix of the cantilever, $\mathbf{u}$ is the vector of displacements of the structural nodes and $\mathbf{F}$ is the vector of applied forces.  
 
 We start building the configuration file for SU2 (\*.cfg). First of all, we need to determine the physical problem that we will be solving. The keyword for structural problems is **ELASTICITY**, therefore
