@@ -2,6 +2,6 @@
 
 Tutorial tests
 
-[Tutorial for Linear Elasticity](Linear_Elasticity).
+[Tutorial for Linear Elasticity](01_Linear/Linear_Elasticity).
 
-[Tutorial for Non-Linear Elasticity](Nonlinear).
+[Tutorial for Non-Linear Elasticity](02_Nonlinear/Nonlinear).
