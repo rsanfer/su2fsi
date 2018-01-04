@@ -9,7 +9,7 @@ First, make sure you have followed the [installation guide](https://github.com/s
 
 The problem that we will be solving consists of a vertical cantilever, clamped in its base, and subject to a horizontal, distributed load $P$. This is shown in Fig. 1. The cantilever is H = 10 mm high and t = 0.5 mm thick, and it is discretized using 360 4-node quad elements with linear interpolation. 
 
-![Fig. 1](01_Linear/img/F1.png)
+![Fig. 1](img/F1.png)
 
 ## Static problems
 
@@ -49,7 +49,7 @@ MESH_FILENAME= mesh.su2
 
 It's now time to set the boundary conditions of the problem. We define the boundaries of our problem as
 
-![Fig. 2](01_Linear/img/F2.png)
+![Fig. 2](img/F2.png)
 
 The load definition is, for this case, $P(y, t) = P = 1.0 \textrm{kPa}$. To comply with our linear elasticity assumptions, we define $P$ as a non-follower load, that is, the direction of the load remains constant throughout the simulation, in the x-axis (1, 0). This boundary condition is imposed in the boundary _left_ as
 

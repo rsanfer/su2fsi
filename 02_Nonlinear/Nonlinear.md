@@ -81,7 +81,7 @@ which will show the following convergence history:
 
 The code is stopped as soon as the values of ```Res[UTOL]```, ```Res[RTOL]``` and ```Res[ETOL]``` are below the convergence criteria set in the config file. The displacement field is shown in Fig. 1.
 
-![Fig. 1](02_Nonlinear/img/Fig1.png)
+![Fig. 1](img/Fig1.png)
 
 #### Increasing the load
 
@@ -170,7 +170,7 @@ given that ```4.628370 > 2.0``` and ```2.207826 > 2.0```, the load is applied in
 
 The displacement field is now
 
-![Fig. 2](02_Nonlinear/img/Fig2.png)
+![Fig. 2](img/Fig2.png)
 
 #### Running dynamic non-linear problems
 
@@ -225,7 +225,7 @@ so the code uses the restart files just generated to reconstruct the solution fi
 
 In this section, we will discretize the cantilever into four regions, R0, R1, R2 and R3,
 
-![Fig. 3](02_Nonlinear/img/Fig3.png)
+![Fig. 3](img/Fig3.png)
 
 in order to exemplify the ability of SU2 to deal with different material properties. The first thing required to deal with multiple materials, is to add the command
 
@@ -275,7 +275,7 @@ POISSON_RATIO=(0.4, 0.35, 0.4, 0.35)
 
 Finally, given the flexibility of the regions R1 amd R3, an incremental approach with 10 increments is adopted. The solution is shown in 
 
-![Fig. 4](02_Nonlinear/img/Fig4.png)
+![Fig. 4](img/Fig4.png)
 
 where it can be observed how the flexible regions undergo large deformations, while the regions R0 and R2 remain virtually unaltered due to their high stiffness. The highlighted elements correspond to the lower layers of R1, R2 and R3.
 
